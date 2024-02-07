@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-color:rgba(172, 255, 47, 0.219);
+}
+
+#container {
+    width:95%;
+}
+
+.note-container {
+    float:left;
+    border-radius:5px;
+    box-shadow: 5px 5px 3px #3333331a;
+    width:300px;
+    height:350px;
+    margin:20px;
+    background-color: white;
+
+}
+
+.note-header {
+    height: 25px;
+    background-color: rgba(172, 255, 47);
+    width:100%;
+    text-align: right;
+    padding:2px 10px;
+}
+
+.deleteBtn, .editBtn {
+    border:none;
+    background-color:transparent;
+    color:#00000046;
+    transition-duration: 200ms;
+    cursor: pointer;
+}
+
+.deleteBtn:hover, .editBtn:hover{
+    color:#000;
+}
+
+.toggledOn {
+    color:green;
+}
+
+#addBtn{
+    position:absolute;
+    right: 25px;
+    top: 25px;
+    border:none;
+    background-color: white;
+    box-shadow: 5px 5px 3px #3333331a;
+    color:#00000046;
+    font-size: 3rem;
+    border-radius: 5px;
+    float:right;
+    transition-duration: 200ms;
+    cursor: pointer;
+}
+
+#addBtn:hover{
+    color:white;
+    background-color:black;
+}
+
+.note-content {
+    padding:10px;
+    max-height: 90%;
+    overflow: auto;
+
+}
+
+.note-content img{
+    width:100%;
+    padding:5px 0;
+}
+
+textarea {
+    resize:none;
+    border:none;
+}
+

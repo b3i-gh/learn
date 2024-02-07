@@ -1,0 +1,9 @@
+[
+  {
+    "monsterId": 1,
+    "monsterName": "Leaf Rake",
+    "monsterSize": 450,
+    "owned": true,
+    "imageUrl": "assets/images/leaf_rake.png"
+  }
+]

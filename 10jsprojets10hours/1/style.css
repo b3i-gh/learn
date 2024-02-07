@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-image: url("./img/bg.jpg");  
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size:cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size:4em;
+    margin:100px;
+}
+
+#clock-container {
+    text-align: center;
+    font-size:2em;
+    display: flex;
+}
+
+.big-text {
+    font-family: 'Courier New', Courier, monospace;
+    font-size:6rem;
+    line-height: 1;
+    margin: 0 2rem;
+    font-weight: bold;
+}

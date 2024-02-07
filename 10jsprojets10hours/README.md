@@ -7,5 +7,5 @@
 6. Movies App (~55min)
 7. GitHub Profiles (~55min)
 8. Drawing App (~45min)
-9. Password Generator
+9. Password Generator (~1h10min)
 10. Weather App

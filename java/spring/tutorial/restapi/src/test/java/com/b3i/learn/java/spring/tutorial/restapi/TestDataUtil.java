@@ -45,6 +45,14 @@ public class TestDataUtil {
                 .author(author)
                 .build();
     }
+
+    public static AuthorDTO createTestAuthorDTOA(){
+        return AuthorDTO.builder()
+                .id(2L)
+                .name("Aria Montgomery")
+                .age(80)
+                .build();
+    }
 //
 //    public static BookEntity createTestBookEntityB(final AuthorEntity author) {
 //        return BookEntity.builder()

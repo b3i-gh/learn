@@ -1,0 +1,21 @@
+.kmDisplay {
+    margin-top: 20px;
+}
+
+.editableValue, .kmDisplayLine {
+    background-color: #f0f0f0;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #333333;      
+}
+
+.editableValue {
+    cursor: pointer;
+    transition: background-color 0.3s ease;  
+}
+
+.editableValue:hover {
+    background-color: #0056b3;
+}
